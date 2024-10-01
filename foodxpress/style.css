@@ -1,0 +1,98 @@
+body, html {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    /* color: white; */
+}
+header, .container-fluid{
+    background: #173931;
+    color: white;
+}
+nav a{
+    color: white;
+    font-size: 1rem;
+}
+nav a:hover{
+    color: white;
+}
+.text-hero{
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+.btn{
+    background: #418973;
+    color: white;
+}
+.big-text{
+    /* color: white; */
+    
+    font-family: "Lato", sans-serif;
+
+    font-size: 2rem;
+
+    font-weight: 900;
+}
+
+.work svg{
+    
+    height: 37px;
+    width: 52px;
+    margin-left: 20px;
+    margin-top: 21px;
+    background: #173931;
+    width: max-content;
+    padding: 6px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    border-radius: 50%;
+    color: white;
+}
+.review IMG{
+    border-radius: 50%;
+}
+.review p,h3{
+    color: #418973;
+}
+.review p{
+    width: 50%;
+    margin: 0 auto 10px auto;
+    /* margin-bottom: 10px; */
+}
+footer ul{
+    padding-left: 0;
+}
+footer li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+footer li a{
+    color: black;
+    text-decoration: none;
+}
+footer li a:hover{
+    color: black;
+    text-decoration: none;
+}
+.footer_head{
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    margin-bottom:10px
+}
+.social_buttons{
+    display: flex;
+}
+
+.social_buttons svg {
+    height: 37px;
+    width: 52px;
+    margin-right: 20px;
+    margin-top: -56px;
+    background: #173931;
+    width: max-content;
+    padding: 6px;
+    padding-left: 6px;
+    border-radius: 50%;
+    color: white;
+}
